@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+.item{	
+	margin-top: 50px;
+	width: 20%;
+	background-color: #FFFF;
+	margin-left: 4%;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	position: relative;		
+}
+
+.icon-user{	
+	display: table;
+	border-radius: 50%;	
+	margin: 0 auto;	
+	margin-top: -40px;
+	/*background-color: #FFFFFF;*/
+}
+
+.data-user{		
+	font: 16px/1.5 "Lato", sans-serif;
+	font-size: 20px;
+	display: table;	
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.data{
+	font-size: 60px;
+}
+
+.dosen{
+	background-image: linear-gradient(#CAD0FC, #46A2CF) !important;
+}
+.mahasiswa{
+	background-image: linear-gradient(#CAD0FC, #7784E9) !important;
+}
+.matkul{
+	background-image: linear-gradient(#CAD0FC, #FFBC70) !important;
+}
+.ruangan{
+	background-image: linear-gradient(#CAD0FC, #FFD770) !important;	
+}
+/* Dashboard Mahasiswa */
+.info{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 120px;
+}
+
+.left-item{	
+	width: 47%;	
+	background-color: #7784E9;
+	color: white;
+	float: left;
+	font-size: 50px;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;	
+	box-shadow: 2px 2px 2px rgba(0, 0, 0,0.3);
+}
+
+.right-item{	
+	width: 47%;	
+	color: white;
+	background-color: #7784E9;
+	float: right;
+	font-size: 50px;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;	
+	box-shadow: 2px 2px 2px rgba(0, 0, 0,0.3);
+}
